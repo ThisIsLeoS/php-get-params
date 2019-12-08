@@ -1,0 +1,53 @@
+/* reset rules */
+
+p {
+  /* to overwrite bootstrap's CSS */
+  margin-bottom: 0;
+}
+
+/* /reset rules */
+
+/* rules used or usable in different parts of the page */
+
+.green-font {
+  color: green;
+}
+
+.red-font {
+  color: red;
+}
+
+/* /rules used or usable in different parts of the page */
+
+/* rules used in specific parts of the page */
+
+html {
+  /* to make a reference for the percentage heights of thix box's children */
+  height: 100%;
+  font-size: 14px;
+}
+
+body {
+  /* to make a reference for the percentage heights of thix box's children */
+  height: 100%;
+  font-family: sans-serif;
+}
+
+main {
+  display: -webkit-box;
+  display: flex;
+  height: 100%;
+  -webkit-box-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+          align-items: center;
+}
+
+.container {
+  border: 2px solid lightskyblue;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* /rules used in specific parts of the page */
+
