@@ -27,9 +27,9 @@ una stringa rossa. -->
   <main>
     <div class="container">
       <?php if ($isBoolean): ?>
-        <p class="green-font">La password è "Boolean"</p>
+        <p class="green-font">Ok</p>
       <?php else: ?>
-        <p class="red-font">La password NON è "Boolean"</p>
+        <p class="red-font">Ko</p>
       <?php endif; ?>
     </div>
   </main>
